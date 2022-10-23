@@ -2,8 +2,8 @@ const qs = require('qs');
 const axios = require('axios');
 
 const SPOTIFY_ACCESS_TOKEN_URL = "https://accounts.spotify.com/api/token"
-const SPOTIFY_CLIENT_ID = "Your CLIENT ID"
-const SPOTIFY_CLIENT_SECRET = "Your CLIENT SECRET"
+const SPOTIFY_CLIENT_ID = "CLIENT_ID"
+const SPOTIFY_CLIENT_SECRET = "CLIENT_SECRET"
 
 
 const getAccessToken = () => {
